@@ -1,6 +1,8 @@
 prometheus-client==0.0.19
 pytz
 pyvmomi>=6.5
-twisted>=14.0.2
+twisted>=22.10.0rc1
 pyyaml>=5.1
 service-identity
+cryptography>=42.0.2 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
